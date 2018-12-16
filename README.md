@@ -6,11 +6,11 @@
 - `npm start`
 - `npm run start-servermon`
 
-![Login](https://github.com/NemerSahli/little_quiz/blob/master/public/images/littel_quiz1.png)
-![Login](https://github.com/NemerSahli/little_quiz/blob/master/public/images/littel_quiz2.png)
-![Login](https://github.com/NemerSahli/little_quiz/blob/master/public/images/littel_quiz3.png)
-![Login](https://github.com/NemerSahli/little_quiz/blob/master/public/images/littel_quiz4.png)
-![Login](https://github.com/NemerSahli/little_quiz/blob/master/public/images/littel_quiz5.png)
+![](https://github.com/NemerSahli/little_quiz/blob/master/public/images/little_quiz1.png)
+![](https://github.com/NemerSahli/little_quiz/blob/master/public/images/little_quiz2.png)
+![](https://github.com/NemerSahli/little_quiz/blob/master/public/images/little_quiz3.png)
+![](https://github.com/NemerSahli/little_quiz/blob/master/public/images/little_quiz4.png)
+![](https://github.com/NemerSahli/little_quiz/blob/master/public/images/little_quiz5.png)
 
 
 
