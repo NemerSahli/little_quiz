@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "answers": [
+      { "id": 1, "answer": "Http Transfer Modeling Language", "result": false },
+      { "id": 2, "answer": "Hyper Text Markup Language", "result": true },
+      { "id": 3, "answer": "Holistic Text Markup Language", "result": false }
+    ]
+  },
+  {
+    "id": 2,
+
+    "question": "Which ones are valid HTML document type definitions?",
+    "answers": [
+      { "id": 1, "answer": "<!doctype html-5>", "result": false },
+      { "id": 2, "answer": "<!doctype html5>", "result": false },
+      { "id": 3, "answer": "<!doctype html>", "result": true }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which ones are valid HTML elements?",
+    "answers": [
+      { "id": 1, "answer": "<head>", "result": false },
+      { "id": 2, "answer": "<header>", "result": true },
+      { "id": 3, "answer": "<body>", "result": true },
+      { "id": 4, "answer": "<row>", "result": false },
+      { "id": 5, "answer": "<foot>", "result": false },
+      { "id": 6, "answer": "<footer>", "result": true }
+    ]
+  },
+
+  {
+    "id": 4,
+    "question": "Which ones are valid link definitions?",
+    "answers": [
+      { "id": 1, "answer": " <a src='http://www.google.de'>", "result": false },
+      {
+        "id": 2,
+        "answer": " <a target='http://www.google.de' ref='_blank'>",
+        "result": false
+      },
+      {
+        "id": 3,
+        "answer": " <a href='http://www.google.de' target='_blank'>",
+        "result": true
+      },
+      {
+        "id": 4,
+        "answer": " <a href='email:john.doe@mail.com'>",
+        "result": false
+      },
+      {
+        "id": 5,
+        "answer": " <a href='mailto:john.doe@mail.com'>",
+        "result": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Which ones are valid image definitions?",
+    "answers": [
+      {
+        "id": 1,
+        "answer": "<img src='http://lorempixel.com/350/250/cats/' alt=\u201DCat Adventures\u201D>",
+        "result": true
+      },
+      {
+        "id": 2,
+        "answer": "<img target='dog.jpeg' width='200' height='200'>",
+        "result": false
+      },
+      {
+        "id": 3,
+        "answer": "<img href='hamster.gif' alt='My funny hamster' width='100%'>",
+        "result": false
+      },
+      {
+        "id": 4,
+        "answer": "<img src='data:image/jpeg;base64,/9j/4RiD...' width='150'  height='150'>",
+        "result": true
+      },
+      {
+        "id": 5,
+        "answer": "<img src='horse.jpg' width='250' height='250' alt='My little pony'>",
+        "result": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which ones are valid attributes for <img> elements?",
+    "answers": [
+      { "id": 1, "answer": "src", "result": true },
+      { "id": 2, "answer": "target", "result": false },
+      { "id": 3, "answer": "alt", "result": true },
+      { "id": 4, "answer": "description", "result": false },
+      { "id": 5, "answer": "width", "result": true },
+      { "id": 6, "answer": "height", "result": true }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Which ones are valid attributes for <img> elements?",
+    "answers": [
+      { "id": 1, "answer": "<style src='style.css'></style>", "result": false },
+      {
+        "id": 2,
+        "answer": "<stylesheet src='style.css'></stylesheet>",
+        "result": false
+      },
+      {
+        "id": 3,
+        "answer": "<link rel='stylesheet' type='text/css' />",
+        "result": true
+      },
+      { "id": 4, "answer": "<link rel='stylesheet' />", "result": false },
+      {
+        "id": 5,
+        "answer": "<style type=”text/css”>.my-class { font-weight: bold; }</style>",
+        "result": true
+      }
+    ]
+  }
+]

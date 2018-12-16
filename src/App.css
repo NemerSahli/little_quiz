@@ -1,0 +1,14 @@
+.App,
+div,
+input,
+button {
+  margin: 10px;
+}
+img {
+  max-width: 500px;
+  max-height: 400px;
+}
+.modal-width {
+  max-width: 600px;
+  max-height: 400px;
+}
