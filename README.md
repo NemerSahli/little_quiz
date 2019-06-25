@@ -2,8 +2,7 @@
 
 
 - `npm install`
-- `npm init -y`
-- `npm start`
+- `npm run start`
 - `npm run start-servermon`
 
 ![](https://github.com/NemerSahli/little_quiz/blob/master/public/images/little_quiz1.png)
